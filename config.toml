@@ -2,3 +2,9 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = '0xl0key'
 theme = 'paper'
+
+[params]
+  color = 'wheat'
+  name = '0xl0key'
+  avatar = 'https://gravatar.com/mfargier'
+  bio = 'Padawan with weird machines'
