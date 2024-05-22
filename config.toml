@@ -1,9 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://async-mayeul.github.io/'
 languageCode = 'en-us'
 title = '0xl0key'
 theme = 'paper'
 
-[Params]
+[params]
   color = 'wheat'
   name = '0xl0key'
   avatar = 'https://gravatar.com/mfargier'
