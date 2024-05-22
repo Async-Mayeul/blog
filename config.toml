@@ -44,7 +44,7 @@ title = "0xl0key"
       logoHomeLink = "/"
     # or
     #
-      path = "/img/logo.svg"
+    #  path = "/img/logo.svg"
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
