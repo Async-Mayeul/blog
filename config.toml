@@ -27,6 +27,9 @@ title = "0xl0key"
   keywords = "homepage, blog, pwn, ctf, reverse, programming"
   images = [""]
 
+[params.logo]
+  logoText = "0xl0key"
+
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -40,7 +43,6 @@ title = "0xl0key"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "0xl0key"
       logoHomeLink = "/"
     # or
     #
