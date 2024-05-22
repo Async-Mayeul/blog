@@ -1,96 +1,28 @@
 baseURL = "https://async-mayeul.github.io/"
-# title = "Hugo Themes"
 author = "Fargier Mayeul"
 copyright = "Copyright © 2023–2024, Fargier Mayeul and the lee.so; all rights reserved."
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
-
-# ------------------------------
 theme = "paper"
 title = "0xl0key"
 
 [params]
-  color = 'linen'
-
-  avatar_url = 'https://gravatar.com/mfargier'
+  color = 'linen'                           # linen, wheat, gray, light
+  github = 'https://github.com/Async-Mayeul'
+  avatar = 'https://gravatar.com/mfargier'                 # gravatar email or image url
   name = '0xl0key'
   bio = 'Padawan with weird machines'
-# ------------------------------
 
-[params.profileMode]
-enabled = true
-title = "0xl0key"
-subtitle = "Hello World !"
-imageUrl = "https://ibb.co/dDyfnhX"
-imageWidth = 120
-imageHeight = 120
 
-  [[params.profileMode.buttons]]
-  name = "Archive"
-  url = "/archive"
-
-  [[params.profileMode.buttons]]
-  name = "Github"
-  url = "https://github.com/"
-
-[[params.socialIcons]]
-name = "github"
-url = ""
-
-# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-#  [markup.highlight]
-#    lineNos = true
-
-[menu]
-
-  [[menu.main]]
-    identifier = "articles"
-    name = "Articles"
-    url = "/articles/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 10
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  gravatarCdn = 'https://gravatar.com/mfargier'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  math = true                               # enable KaTeX math typesetting globally
+  localKatex = false                        # use local KaTeX js/css instead of CDN
+  favicon = "favicon.ico"                   # customize the default favicon
+  appleTouchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon
