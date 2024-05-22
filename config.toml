@@ -6,23 +6,49 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
-theme = "paper"
+theme = "hello-friend-ng"
 title = "0xl0key"
 
 [params]
-  color = 'linen'                           # linen, wheat, gray, light
-  github = 'https://github.com/Async-Mayeul'
-  avatar = 'https://gravatar.com/mfargier'                 # gravatar email or image url
-  name = '0xl0key'
-  bio = 'Padawan with weird machines'
+  # Subtitle for home
+  homeSubtitle = "A simple human that love coding"
 
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
 
-  # misc
-  disableHLJS = true                        # disable highlight.js
-  disablePostNavigation = true              # disable post navigation
-  monoDarkIcon = true                       # show monochrome dark mode icon
-  gravatarCdn = 'https://gravatar.com/mfargier'         # e.g. 'https://cdn.v2ex.com/gravatar/'
-  math = true                               # enable KaTeX math typesetting globally
-  localKatex = false                        # use local KaTeX js/css instead of CDN
-  favicon = "favicon.ico"                   # customize the default favicon
-  appleTouchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = true
+
+  # Metadata mostly used in document's head
+  description = "0xl0key blog"
+  keywords = "homepage, blog, pwn, ctf, reverse, programming"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Hello Friend NG"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "hello friend ng"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
