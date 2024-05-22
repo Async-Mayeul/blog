@@ -17,12 +17,30 @@ title = "0xl0key"
 [params]
   color = 'linen'
 
-  github = 'nanxiaobei'
-
   avatar_url = 'https://gravatar.com/mfargier'
   name = '0xl0key'
   bio = 'Padawan with weird machines'
 # ------------------------------
+
+[params.profileMode]
+enabled = true
+title = "0xl0key"
+subtitle = "Hello World !"
+imageUrl = "https://ibb.co/dDyfnhX"
+imageWidth = 120
+imageHeight = 120
+
+  [[params.profileMode.buttons]]
+  name = "Archive"
+  url = "/archive"
+
+  [[params.profileMode.buttons]]
+  name = "Github"
+  url = "https://github.com/"
+
+[[params.socialIcons]]
+name = "github"
+url = ""
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
 [markup]
