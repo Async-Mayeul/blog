@@ -1,7 +1,7 @@
-baseURL = "https://hugo-paper.vercel.app/"
+baseURL = "https://async-mayeul.github.io/"
 # title = "Hugo Themes"
-author = "Steve Francia"
-copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
+author = "Fargier Mayeul"
+copyright = "Copyright © 2023–2024, Fargier Mayeul and the lee.so; all rights reserved."
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -12,18 +12,16 @@ ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "paper"
-title = "Paper"
+title = "0xl0key"
 
 [params]
   color = 'linen'
 
-  twitter = 'nanxiaobei'
   github = 'nanxiaobei'
-  instagram = 'nan.xiaobei'
 
-  avatar = 'nanxiaobei@gmail.com'
-  name = 'Lee'
-  bio = 'Discover fresh context'
+  avatar = 'https://gravatar.com/mfargier'
+  name = '0xl0key'
+  bio = 'Padawan with weird machines'
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
@@ -37,9 +35,9 @@ title = "Paper"
 [menu]
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    identifier = "articles"
+    name = "Articles"
+    url = "/articles/"
     weight = 10
   [[menu.main]]
     identifier = "contact"
