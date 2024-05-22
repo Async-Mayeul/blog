@@ -30,6 +30,9 @@ title = "0xl0key"
 [params.logo]
   logoText = "0xl0key"
 
+[params.portrait]
+  path = "./img/logo.svg"
+
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -44,10 +47,6 @@ title = "0xl0key"
 
     [languages.en.params.logo]
       logoHomeLink = "/"
-    # or
-    #
-    #  path = "/img/logo.svg"
-    # alt = "Your example logo alt text"
 
   # And you can even create generic menu
   [[menu.main]]
